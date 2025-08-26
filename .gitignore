@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.size-snapshot.json
+
+# Dependency directories
+node_modules/
+
+# osx
+**/.DS_Store
+
+# sensitive configuration
+.env
+
+# local configuration
+*.local
+*.local.*
+
+# temp config file
+.husky/_
+.vscode
+
+# builder cache
+.cache
+dist
+build
+.parcel-cache
+*.zip
+
+.idea
