@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useRef } from 'react';
 import { Details } from './views/details';
 import { Download } from './views/download';
 import { General } from './views/general';
@@ -20,9 +20,10 @@ import { PageWrapper } from './wrappers/page.wrapper';
 import { Sidebar } from './wrappers/sidebar.wrapper';
 
 export const Resume: FC = () => {
+  const contentRef = useRef<HTMLDivElement | null>(null);
   return (
     <PageWrapper>
-      <ContentWrapper>
+      <ContentWrapper ref={contentRef}>
         <Sidebar>
           <General firstName="Vladyslav" lastName="Koliesnikov" job="Full Stack Developer" photo="photo.png" />
           <Details country="Ukraine" phone="380664448780" email="appako2603@gmail.com" />
@@ -127,12 +128,11 @@ export const Resume: FC = () => {
               zones, and order history with ratings and feedback.
             </SectionContent>
             <SectionList>
-              <li>Node.js, Koa, MongoDB, Docker</li>
+              <li>Node.js, Koa, MongoDB, Docker, Telegram Bot API</li>
               <li>React, Material-UI</li>
-              <li>Telegram Bot API</li>
             </SectionList>
           </SectionWrapper>
-
+          <div className="my-2" />
           <SectionWrapper>
             <SectionTitle>Poster Debit Card, SoftDrive, Full Stack Developer</SectionTitle>
             <SectionSubTitle>April 2018 — May 2019</SectionSubTitle>
@@ -160,7 +160,7 @@ export const Resume: FC = () => {
           </SectionWrapper>
         </MainWrapper>
       </ContentWrapper>
-      <Download />
+      <Download contentRef={contentRef} />
     </PageWrapper>
   );
 };

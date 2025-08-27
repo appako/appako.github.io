@@ -1,5 +1,9 @@
-import { FC, PropsWithChildren } from 'react';
+import { forwardRef, PropsWithChildren } from 'react';
 
-export const ContentWrapper: FC<PropsWithChildren> = ({ children }) => {
-  return <div className="flex w-[900px] rounded-2xl shadow-xl overflow-hidden">{children}</div>;
-};
+export const ContentWrapper = forwardRef<HTMLDivElement | null, PropsWithChildren>(({ children }, ref) => {
+  return (
+    <div ref={ref} className="flex w-[900px] shadow-xl overflow-hidden">
+      {children}
+    </div>
+  );
+});
