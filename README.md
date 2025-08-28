@@ -1,6 +1,7 @@
-# SPA Resume
+# My Resume
+[Live Site](https://appako.github.io/)
 
-A single-page application for resume built with React, Webpack, TypeScript, TailwindCSS, and EJS template.
+A single-page application for resume built with TypeScript, React, Webpack, TailwindCSS.
 
 ## Getting Started
 
