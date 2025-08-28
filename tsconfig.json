@@ -4,6 +4,7 @@
     "module": "commonjs",
     "lib": ["dom", "dom.iterable", "ESNext"],
     "allowJs": false,
+    "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "react-jsx",
     "strict": true,
