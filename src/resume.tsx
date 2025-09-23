@@ -72,13 +72,13 @@ export const Resume: FC = () => {
           <SectionWrapper>
             <SectionName>Projects</SectionName>
             <SectionTitle>Timeko, CodeTiburon, Full Stack Developer</SectionTitle>
-            <SectionSubTitle>August 2022 — Present</SectionSubTitle>
+            <SectionSubTitle>August 2022 — September 2025</SectionSubTitle>
             <SectionContent>
               All-in-one platform for recruitment and HR management, streamlines messaging, interview scheduling,
               contact management, and analytics to boost efficiency and productivity.
             </SectionContent>
             <SectionList>
-              <li>React, Material UI, Tailwind, MobX, TypeDI, Redux, Webpack, Vite</li>
+              <li>React, Material UI, React Native, MobX, TypeDI, Redux, Webpack, Vite</li>
               <li>NestJS, MongoDB, PostgreSQL, Redis, BullMQ, Jest, Docker, AWS</li>
               <li>Google Maps Platform, WhatsApp Business Platform, Vonage APIs</li>
             </SectionList>
@@ -103,7 +103,7 @@ export const Resume: FC = () => {
               Online banking help desk platform providing customer support and issue resolution.
             </SectionContent>
             <SectionList>
-              <li>React, MobX, Material UI, OpenAPI, Swagger, Webpack, Docker</li>
+              <li>React, Next.js, MobX, Tailwind, ISR, Jest, OpenAPI, Swagger, Webpack, Docker</li>
             </SectionList>
           </SectionWrapper>
 
