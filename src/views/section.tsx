@@ -21,5 +21,5 @@ export const SectionContent: FC<PropsWithChildren> = ({ children }) => {
 };
 
 export const SectionList: FC<PropsWithChildren> = ({ children }) => {
-  return <ul className="list-disc ml-6 text-sm text-gray-700">{children}</ul>;
+  return <ul className="list-item ml-4 text-sm text-gray-700">{children}</ul>;
 };

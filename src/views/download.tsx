@@ -8,7 +8,7 @@ export const Download: FC<{ contentRef: RefObject<HTMLElement | null> }> = ({ co
   }, [contentRef]);
 
   return (
-    <div className="fixed bottom-4 right-4">
+    <div className="fixed bottom-4 right-4 hidden lg:block">
       <button
         className="px-4 py-2 rounded-2xl bg-gray-800 text-white hover:bg-gray-700 transition-colors cursor-pointer"
         onClick={handleDownload}

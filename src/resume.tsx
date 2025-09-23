@@ -27,7 +27,9 @@ export const Resume: FC = () => {
         <Sidebar>
           <General firstName="Vladyslav" lastName="Koliesnikov" job="Full Stack Developer" photo="photo.png" />
           <Details country="Ukraine" phone="380664448780" email="appako2603@gmail.com" />
-          <Links links={['https://github.com/appako', 'https://linkedin.com/in/vkoliesnikov']} />
+          <Links
+            links={['https://appako.github.io', 'https://github.com/appako', 'https://linkedin.com/in/vkoliesnikov']}
+          />
           <Skills
             skills={[
               { name: 'TypeScript', level: 5 },
@@ -78,9 +80,9 @@ export const Resume: FC = () => {
               contact management, and analytics to boost efficiency and productivity.
             </SectionContent>
             <SectionList>
-              <li>React, Material UI, React Native, MobX, TypeDI, Redux, Webpack, Vite</li>
-              <li>NestJS, MongoDB, PostgreSQL, Redis, BullMQ, Jest, Docker, AWS</li>
-              <li>Google Maps Platform, WhatsApp Business Platform, Vonage APIs</li>
+              <li>• React, Material UI, React Native, MobX, TypeDI, Redux, Webpack, Vite</li>
+              <li>• NestJS, MongoDB, PostgreSQL, Redis, BullMQ, Jest, Docker, AWS</li>
+              <li>• Google Maps Platform, WhatsApp Business Platform, Vonage APIs</li>
             </SectionList>
           </SectionWrapper>
 
@@ -88,11 +90,17 @@ export const Resume: FC = () => {
             <SectionTitle>Help-Ukr, Frontend Developer</SectionTitle>
             <SectionSubTitle>March 2022 — April 2022</SectionSubTitle>
             <SectionContent>
-              A small open-source Next.js web application for collecting donations for Ukraine in Europe. Features an
-              interactive map and donation tracking. <a href="http://github.com/help-ukr">github.com/help-ukr</a>
+              A small open-source Next.js application for collecting donations for Ukraine in Europe. Features an
+              interactive map and donation tracking.
             </SectionContent>
             <SectionList>
-              <li>React, Next.js, React Leaflet, OpenStreetMap, Geolib, MobX, Material-UI</li>
+              <li>
+                • <span className="mr-1">Source code</span>
+                <a href="http://github.com/help-ukr/donations-management-app" className="underline">
+                  github.com/help-ukr
+                </a>
+              </li>
+              <li>• React, Next.js, React Leaflet, OpenStreetMap, Geolib, MobX, Material-UI</li>
             </SectionList>
           </SectionWrapper>
 
@@ -103,7 +111,7 @@ export const Resume: FC = () => {
               Online banking help desk platform providing customer support and issue resolution.
             </SectionContent>
             <SectionList>
-              <li>React, Next.js, MobX, Tailwind, ISR, Jest, OpenAPI, Swagger, Webpack, Docker</li>
+              <li>• React, Next.js, MobX, Tailwind, ISR, Jest, OpenAPI, Swagger, Webpack, Docker</li>
             </SectionList>
           </SectionWrapper>
 
@@ -115,8 +123,8 @@ export const Resume: FC = () => {
               with friends and followers.
             </SectionContent>
             <SectionList>
-              <li>React Native, MobX, GraphQL</li>
-              <li>Node.js, NestJS, MongoDB, Apollo, Docker</li>
+              <li>• React Native, MobX, GraphQL</li>
+              <li>• Node.js, NestJS, MongoDB, Apollo, Docker</li>
             </SectionList>
           </SectionWrapper>
 
@@ -128,11 +136,11 @@ export const Resume: FC = () => {
               zones, and order history with ratings and feedback.
             </SectionContent>
             <SectionList>
-              <li>Node.js, Koa, MongoDB, Docker, Telegram Bot API</li>
-              <li>React, Material-UI</li>
+              <li>• Node.js, Koa, MongoDB, Docker, Telegram Bot API</li>
+              <li>• React, Material-UI</li>
             </SectionList>
           </SectionWrapper>
-          <div className="my-2" />
+          <div className="divide bg-gray-200 w-full h-0.25 mb-8" />
           <SectionWrapper>
             <SectionTitle>Poster Debit Card, SoftDrive, Full Stack Developer</SectionTitle>
             <SectionSubTitle>April 2018 — May 2019</SectionSubTitle>
@@ -141,8 +149,8 @@ export const Resume: FC = () => {
               zones.
             </SectionContent>
             <SectionList>
-              <li>React, MobX, Material-UI, SSR, Webpack</li>
-              <li>Node.js, Express, MongoDB, Redis, Apollo, i18Next</li>
+              <li>• React, MobX, Material-UI, SSR, Webpack</li>
+              <li>• Node.js, Express, MongoDB, Redis, Apollo, i18Next</li>
             </SectionList>
           </SectionWrapper>
 
@@ -153,9 +161,9 @@ export const Resume: FC = () => {
               A single-page application for finding available spaces and rental opportunities in shopping malls.
             </SectionContent>
             <SectionList>
-              <li>Node.js, Express, Keystone, Socket.io</li>
-              <li>React 15, Gulp, SCSS</li>
-              <li>Google Maps API</li>
+              <li>• Node.js, Express, Keystone, Socket.io</li>
+              <li>• React 15, Gulp, SCSS</li>
+              <li>• Google Maps API</li>
             </SectionList>
           </SectionWrapper>
         </MainWrapper>
