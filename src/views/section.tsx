@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren } from 'react';
 
 export const SectionWrapper: FC<PropsWithChildren> = ({ children }) => {
-  return <section className="mb-8">{children}</section>;
+  return <section className="mb-7">{children}</section>;
 };
 
 export const SectionName: FC<PropsWithChildren> = ({ children }) => {

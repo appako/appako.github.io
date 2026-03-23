@@ -73,6 +73,19 @@ export const Resume: FC = () => {
 
           <SectionWrapper>
             <SectionName>Projects</SectionName>
+            <SectionTitle>Aromoshelf, Full Stack Developer</SectionTitle>
+            <SectionSubTitle>September 2025 — Present</SectionSubTitle>
+            <SectionContent>
+              A mobile application for managing and sharing personal fragrance collections, allowing users to create
+              virtual shelves, track usage, and connect with other fragrance enthusiasts.
+            </SectionContent>
+            <SectionList>
+              <li>• ReactNative, React, Material UI, React Query, MobX, Tsyringe, Webpack</li>
+              <li>• NestJS, PostgreSQL, Redis, GeoJSON, Jest, Docker, AWS</li>
+              <li>• Apple Signin, Google Auth, Firebase, Sentry, Amplitude</li>
+            </SectionList>
+          </SectionWrapper>
+          <SectionWrapper>
             <SectionTitle>Timeko, CodeTiburon, Full Stack Developer</SectionTitle>
             <SectionSubTitle>August 2022 — September 2025</SectionSubTitle>
             <SectionContent>
@@ -128,6 +141,8 @@ export const Resume: FC = () => {
             </SectionList>
           </SectionWrapper>
 
+          <div className="divide bg-gray-200 w-full h-0.25 mb-8" />
+
           <SectionWrapper>
             <SectionTitle>FeedMe Bot, SoftDrive, Full Stack Developer</SectionTitle>
             <SectionSubTitle>March 2020 — December 2020</SectionSubTitle>
@@ -140,7 +155,7 @@ export const Resume: FC = () => {
               <li>• React, Material-UI</li>
             </SectionList>
           </SectionWrapper>
-          <div className="divide bg-gray-200 w-full h-0.25 mb-8" />
+
           <SectionWrapper>
             <SectionTitle>Poster Debit Card, SoftDrive, Full Stack Developer</SectionTitle>
             <SectionSubTitle>April 2018 — May 2019</SectionSubTitle>
