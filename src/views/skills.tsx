@@ -15,7 +15,7 @@ const renderSkill = (skill: Skill) => (
 
 export const Skills: FC<SkillsProps> = ({ skills }) => {
   return (
-    <div className="mb-6 w-full">
+    <div className="resume-section mb-6 w-full">
       <h2 className="text-base font-semibold mb-2">Skills</h2>
       <ul className="text-xs space-y-3">{skills.map(renderSkill)}</ul>
     </div>

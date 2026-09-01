@@ -1,1 +1,29 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@media print {
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+
+  .page-wrapper {
+    display: contents;
+  }
+
+  .content-wrapper {
+    width: 100%;
+    box-shadow: none;
+    overflow: visible;
+  }
+
+  .download-control {
+    display: none !important;
+  }
+
+  .resume-section {
+    padding-top: 30px;
+    margin-bottom: 10px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

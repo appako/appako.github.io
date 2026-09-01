@@ -15,7 +15,7 @@ const renderLanguage = (lang: Language) => (
 
 export const Languages: FC<LanguagesProps> = ({ languages }) => {
   return (
-    <div className="mb-6 w-full">
+    <div className="resume-section mb-6 w-full">
       <h2 className="text-base font-semibold mb-2">Languages</h2>
       <ul className="text-xs space-y-3">{languages.map(renderLanguage)}</ul>
     </div>
