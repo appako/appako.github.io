@@ -13,7 +13,6 @@ import {
   SectionTitle,
   SectionWrapper,
 } from './views/section';
-import { Skills } from './views/skills';
 import { ContentWrapper } from './wrappers/content.wrapper';
 import { MainWrapper } from './wrappers/main.wrapper';
 import { PageWrapper } from './wrappers/page.wrapper';
@@ -29,18 +28,6 @@ export const Resume: FC = () => {
           <Links
             links={['https://appako.github.io', 'https://github.com/appako', 'https://linkedin.com/in/vkoliesnikov']}
           />
-          <Skills
-            skills={[
-              { name: 'TypeScript', level: 5 },
-              { name: 'React', level: 5 },
-              { name: 'Node.js', level: 4 },
-              { name: 'React Native', level: 4 },
-              { name: 'NestJS', level: 4 },
-              { name: 'MongoDB', level: 5 },
-              { name: 'PostgreSQL', level: 4 },
-              { name: 'Docker', level: 4 },
-            ]}
-          />
           <Languages
             languages={[
               { name: 'Ukrainian', level: 5 },
@@ -54,30 +41,26 @@ export const Resume: FC = () => {
           <SectionWrapper>
             <SectionName>Profile</SectionName>
             <SectionContent>
-              Senior Full Stack Developer with 10+ years of commercial experience building and maintaining web and
-              mobile applications with <strong>TypeScript, Node.js, React and React Native</strong>.
+              Senior Full Stack Developer with 10+ years of commercial experience building production web and mobile
+              applications with <strong>TypeScript, Node.js, React</strong>.
             </SectionContent>
             <SectionContent>
-              Strong experience across the full development lifecycle, from frontend and backend development to
-              architecture, infrastructure and third-party integrations. Experienced in building production systems with
-              <strong> NestJS, PostgreSQL, MongoDB, Redis, Docker and AWS</strong>.
-            </SectionContent>
-            <SectionContent>
-              Comfortable owning backend architecture and making technical decisions while also actively contributing to
-              <strong> React and React Native applications</strong>.
+              Experienced across the full development lifecycle, from frontend and backend development to architecture,
+              infrastructure and third-party integrations. Currently responsible for backend architecture and technical
+              decisions while actively developing React Native applications.
             </SectionContent>
           </SectionWrapper>
 
           <SectionWrapper>
             <SectionName>Core Skills</SectionName>
             <SectionContent>
-              <strong>Backend:</strong> Node.js, NestJS, Express, PostgreSQL, MongoDB, Redis
+              <strong>Backend:</strong> Node.js, NestJS, Express, PostgreSQL, MongoDB, Redis, BullMQ
             </SectionContent>
             <SectionContent>
-              <strong>Frontend:</strong> TypeScript, React, React Native, TanStack, MobX
+              <strong>Frontend:</strong> React, React Native, Next.js, MobX, React Query, Leaflet
             </SectionContent>
             <SectionContent>
-              <strong>Infrastructure & Testing:</strong> Docker, Jest, Webpack, AWS
+              <strong>Infrastructure & Testing:</strong> Docker, CI/CD, AWS, Jest, Webpack, OpenAPI
             </SectionContent>
           </SectionWrapper>
 
@@ -188,9 +171,6 @@ export const Resume: FC = () => {
               <li>
                 • Implemented and maintained automated tests with <strong>Jest</strong>.
               </li>
-              <li>
-                • Worked with APIs documented using <strong>OpenAPI/Swagger</strong>.
-              </li>
             </SectionList>
             <SectionContent>
               <strong>Stack:</strong> React, Next.js, MobX, Tailwind, ISR, Jest, OpenAPI, Swagger, Webpack, Docker
@@ -286,9 +266,6 @@ export const Resume: FC = () => {
               </li>
               <li>
                 • Developed backend services using <strong>Node.js</strong> and <strong>Express</strong>.
-              </li>
-              <li>
-                • Worked with <strong>Keystone</strong> and <strong>Socket.io</strong>.
               </li>
               <li>
                 • Implemented interactive functionality using <strong>Google Maps API</strong>.
