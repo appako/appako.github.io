@@ -26,7 +26,7 @@ export const Resume: FC = () => {
           <General firstName="Vladyslav" lastName="Koliesnikov" job="Full Stack Developer" photo="photo.png" />
           <Details country="Ukraine" phone="380664448780" email="appako2603@gmail.com" />
           <Links
-            links={['https://appako.github.io', 'https://github.com/appako', 'https://linkedin.com/in/vkoliesnikov']}
+            links={['https://appako.github.io', 'https://github.com/appako', 'https://linkedin.com/in/koliesnikov']}
           />
           <Languages
             languages={[
